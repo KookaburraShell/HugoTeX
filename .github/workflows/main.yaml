@@ -32,7 +32,7 @@ jobs:
 
     # Building latest coaching-saga code changes  
     - name: Build
-      run: cd /exampleSite && hugo -verbose
+      run: cd exampleSite && hugo
 
     # Runs a set of commands using the runners shell
     - name: Deploy
